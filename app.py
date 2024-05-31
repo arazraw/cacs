@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model_filename = '/mnt/data/cacs_tot_prediction_model.joblib'
+model_filename = 'cacs_tot_prediction_model.joblib'
 model = joblib.load(model_filename)
 
 # Function to make predictions
